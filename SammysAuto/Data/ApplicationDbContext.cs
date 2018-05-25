@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SammysAuto.Models;
 
@@ -14,6 +10,7 @@ namespace SammysAuto.Data
             : base(options)
         {
         }
+        public DbSet<ServiceType> ServiceTypes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -1,0 +1,34 @@
+﻿@model SammysAuto.Models.IndividualButtonPartial
+
+<td style="width:150px">
+    <div class="btn-group" role="group">
+        @Html.Partial("_IndividualButtonPartial",
+            new IndividualButtonPartial
+            {
+                Action="Edit",
+                ButtonType="btn-primary",
+                Glyph= "glyphicon-pencil",
+                Text="Edit Button",
+                ServiceId=Model.ServiceId
+            })
+        @Html.Partial("_IndividualButtonPartial",
+          new IndividualButtonPartial
+          {
+              Action="Details",
+              ButtonType="btn-success",
+              Glyph= "glyphicon-list",
+              Text="Details Button",
+              ServiceId=Model.ServiceId
+          })
+        @Html.Partial("_IndividualButtonPartial",
+          new IndividualButtonPartial
+          {
+              Action="Delete",
+              ButtonType="btn-danger",
+              Glyph= "glyphicon-trash",
+              Text="Delete Button",
+              ServiceId=Model.ServiceId
+          })
+
+    </div>
+</td>
