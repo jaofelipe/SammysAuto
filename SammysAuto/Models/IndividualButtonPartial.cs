@@ -9,6 +9,9 @@ namespace SammysAuto.Models
         public string Glyph { get; set; }
         public string Text { get; set; }
         public int? ServiceId { get; set; }
+        public string CustomerId { get; set; }
+
+        public string OnClick { get; set; }
         public string ActionParameters
         {
             get
@@ -17,6 +20,10 @@ namespace SammysAuto.Models
                 if (ServiceId != 0 && ServiceId != null)
                 {
                     param.Append(string.Format("{0}", ServiceId));
+                }
+                if (CustomerId != null && CustomerId.Length > 0)
+                {
+                    param.Append(string.Format("{0}", CustomerId));
                 }
                 return param.ToString().Substring(0, param.Length);
             }

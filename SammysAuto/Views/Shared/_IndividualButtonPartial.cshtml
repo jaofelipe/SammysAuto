@@ -1,5 +1,5 @@
 ﻿@model SammysAuto.Models.IndividualButtonPartial
-<a type="button" class="btn btn-sm @Model.ButtonType"
+<a type="button" onclick="@Model.OnClick" class="btn btn-sm @Model.ButtonType"
    href="@Url.Action(Model.Action)@Model.ActionParameters">
    <span class="glyphicon @Model.Glyph"></span>
     <span class="sr-only">@Model.Text</span>

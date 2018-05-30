@@ -1,14 +1,14 @@
 ﻿@model SammysAuto.Models.ServiceType
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 <br />
-<h2>Add Service Type</h2>
+<h2>Edit Service Type</h2>
 
 <hr />
 
-<form asp-action="Create">
+<form asp-action="Edit">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="form-group">
         <div class="row">
@@ -18,13 +18,12 @@
             <div class="col-sm-4">
                 <input asp-for="Name" class="form-control" />
             </div>
-        </div>               
+        </div>
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <input type="submit" value="Create" class="btn btn-primary" />
+        <input type="submit" value="Update" class="btn btn-primary" />
         <a asp-action="Index" class="btn btn-sm btn-success">Back to List</a>
     </div>
 </form>
-
 
