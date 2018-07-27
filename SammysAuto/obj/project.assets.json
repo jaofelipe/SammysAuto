@@ -13259,23 +13259,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joao.coelho\\.nuget\\packages\\": {},
+    "C:\\Users\\João Felipe\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Udemy\\SammysAuto\\SammysAuto\\SammysAuto.csproj",
+      "projectUniqueName": "C:\\Users\\João Felipe\\Source\\Repos\\SammysAuto\\SammysAuto\\SammysAuto.csproj",
       "projectName": "SammysAuto",
-      "projectPath": "C:\\Udemy\\SammysAuto\\SammysAuto\\SammysAuto.csproj",
-      "packagesPath": "C:\\Users\\joao.coelho\\.nuget\\packages\\",
-      "outputPath": "C:\\Udemy\\SammysAuto\\SammysAuto\\obj\\",
+      "projectPath": "C:\\Users\\João Felipe\\Source\\Repos\\SammysAuto\\SammysAuto\\SammysAuto.csproj",
+      "packagesPath": "C:\\Users\\João Felipe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\João Felipe\\Source\\Repos\\SammysAuto\\SammysAuto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\joao.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\João Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

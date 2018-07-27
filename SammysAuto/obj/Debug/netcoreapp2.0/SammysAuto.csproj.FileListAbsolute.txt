@@ -22,3 +22,15 @@ C:\Udemy\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.AssemblyInfoIn
 C:\Udemy\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.AssemblyInfo.cs
 C:\Udemy\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.dll
 C:\Udemy\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.pdb
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.deps.json
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.runtimeconfig.json
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.runtimeconfig.dev.json
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.dll
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.pdb
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.csprojAssemblyReference.cache
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.csproj.CoreCompileInputs.cache
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.AssemblyInfoInputs.cache
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.AssemblyInfo.cs
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.dll
+C:\Users\João Felipe\Source\Repos\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.pdb

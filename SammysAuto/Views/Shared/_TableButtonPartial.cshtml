@@ -10,7 +10,8 @@
                 Glyph= "glyphicon-pencil",
                 Text="Edit Button",
                 ServiceId=Model.ServiceId,
-                CustomerId = Model.CustomerId
+                CustomerId = Model.CustomerId,
+                CarId = Model.CarId
             })
         @Html.Partial("_IndividualButtonPartial",
           new IndividualButtonPartial
@@ -20,7 +21,8 @@
               Glyph= "glyphicon-list",
               Text="Details Button",
               ServiceId=Model.ServiceId,
-              CustomerId = Model.CustomerId
+              CustomerId = Model.CustomerId,
+              CarId = Model.CarId
           })
         @Html.Partial("_IndividualButtonPartial",
           new IndividualButtonPartial
@@ -31,7 +33,8 @@
               Text="Delete Button",
               ServiceId=Model.ServiceId,
               CustomerId = Model.CustomerId,
-              OnClick ="return confirm('Are you sure you wish to delete ?');"
+              CarId = Model.CarId,
+              OnClick ="return confirm('Tem certeza que deseja excluir registro?');"
           })
 
     </div>
